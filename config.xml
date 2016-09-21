@@ -1,30 +1,35 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
 <widget xmlns = "http://www.w3.org/ns/widgets" 
-   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shrinivas" version = "1.0">
-   
-   <name>First</name>
-   
-   <description>
-      First PhoneGap Appliaction
-   </description>
-   
-   <author href = "http://google.com" email = "ssshukla1993@gmail.com">
-      Shrinivas Shukla
-   </author>
-   
-   <preference name = "permissions" value = "none"/>
-   
-   <icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "ldpi" />
-   <icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "mdpi" />
-   <icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "hdpi" />
-   <icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "xhdpi" />
-   <icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "xxhdpi" />
-   
-   <icon src = "res/logo.png" gap:platform = "ios" gap:qualifier = ""/>
-   <icon src = "res/logo.png" gap:platform = "ios" width = "57" height = "57" />
-   <icon src = "res/logo.png" gap:platform = "ios" width = "72" height = "72" />
-   <icon src = "res/logo.png" gap:platform = "ios" width = "114" height = "114" />
-   <icon src = "res/logo.png" gap:platform = "ios" width = "144" height = "144" />
-   
+xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shrinivas" version = "1.0">
+
+	<name>First</name>
+
+	<description>
+		First PhoneGap Appliaction
+	</description>
+
+	<author href = "http://google.com" email = "ssshukla1993@gmail.com">
+		Shrinivas Shukla
+	</author>
+
+	<preference name = "permissions" value = "none"/>
+
+	<icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "ldpi" />
+	<icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "mdpi" />
+	<icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "hdpi" />
+	<icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "xhdpi" />
+	<icon src = "res/logo.png" gap:platform = "android" gap:qualifier = "xxhdpi" />
+
+	<icon src = "res/logo.png" gap:platform = "ios" gap:qualifier = ""/>
+	<icon src = "res/logo.png" gap:platform = "ios" width = "57" height = "57" />
+	<icon src = "res/logo.png" gap:platform = "ios" width = "72" height = "72" />
+	<icon src = "res/logo.png" gap:platform = "ios" width = "114" height = "114" />
+	<icon src = "res/logo.png" gap:platform = "ios" width = "144" height = "144" />
+
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+	<access origin="*" />
+	<allow-intent href="*" />
+	<allow-navigation href="*" />
+
 </widget>
