@@ -5,6 +5,9 @@ window.onload = function() {
 		$.ajax('http://jsonplaceholder.typicode.com/posts/1',{
 			success: function(data) {
 				alert(data.title);
+			},
+			error: function(err) {
+				alert("ERROR");
 			}
 		});
 	});
