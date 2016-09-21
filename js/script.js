@@ -6,8 +6,9 @@ window.onload = function() {
 			success: function(data) {
 				alert(data.title);
 			},
-			error: function(err) {
-				alert("ERROR");
+			error: function(err, msg) {
+				alert(JSON.stringify(err));
+				alert(JSON.stringify(msg));
 			}
 		});
 	});
